@@ -1,0 +1,198 @@
+/* Header */
+* {
+  margin: 0px auto;
+}
+header {
+  width: 100%;
+  height: 140px;
+  background-color: gray;
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-top: 10px;
+}
+header h1 {
+  font-size: 50px;
+  float: left;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+header span {
+  float: right;
+  padding: 50px;
+  color: rgb(204, 198, 198);
+  font-size: 20px;
+}
+/* nav bar */
+nav {
+  height: 70px;
+  background-color: rgb(0, 173, 173);
+  padding-top: 0px;
+  margin-bottom: 50px;
+}
+.manu {
+  float: left;
+}
+.manu ul {
+  float: left;
+  display: flex;
+  list-style: none;
+  font-size: 22px;
+  margin-top: 18px;
+}
+.manu .links {
+  margin-left: 70px;
+}
+.manu .firstlink {
+  margin-left: 12px;
+}
+.manu ul li a {
+  text-decoration: none;
+  color: white;
+}
+/* second section */
+.secondsection {
+  border: 3px solid rgba(179, 176, 176, 0.479);
+  padding: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.secondsection img {
+  width: 1137px;
+  height: 300px;
+  margin-right: 10px;
+}
+.downsec {
+  float: left;
+  width: 70%;
+}
+.downsec .leftsec {
+  width: 80%;
+  height: 200px;
+  margin-left: 50px;
+  margin-top: 70px;
+}
+.leftsec h1 {
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+.leftsec span a {
+  color: rgb(0, 173, 173);
+}
+.leftsec p {
+  font-size: 17px;
+}
+.firstsec3 {
+  float: left;
+  margin-left: 50px;
+  width: 40%;
+  margin-right: 20px;
+}
+.firstsec3 h2 {
+  margin-bottom: 40px;
+}
+.firstsec3 img {
+  float: left;
+  border: 1px solid rgba(202, 200, 200, 0.555);
+  padding: 5px;
+}
+.firstsec3 p {
+  margin-left: 110px;
+  color: rgb(0, 173, 173);
+  margin-bottom: 60px;
+}
+.firstsec3 hr {
+  margin-bottom: 40px;
+}
+.secondsec3 {
+  width: 40%;
+  margin-right: 0px;
+  margin-left: 440px;
+}
+.secondsec3 p {
+  word-spacing: 2px;
+}
+.secondsec3 h2 {
+  margin-bottom: 40px;
+}
+.sec2links {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.sec2links a {
+  color: rgb(0, 173, 173);
+}
+.sec2link a {
+  color: rgb(0, 173, 173);
+  margin-left: 20px;
+}
+.sec2link {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+/* side bar section */
+aside {
+  width: 22%;
+  margin-top: 80px;
+  float: right;
+  margin-right: 50px;
+}
+.downside {
+  margin-top: 45px;
+}
+.nums {
+  float: left;
+  background-color: rgb(104, 103, 103);
+  color: white;
+  border-radius: 2px;
+  font-size: 17px;
+  margin-top: 20px;
+}
+/* footer section */
+.foot {
+  background-color: rgb(105, 103, 103);
+  height: 350px;
+  margin-top: 830px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.first1 {
+  margin-left: 50px;
+  width: 800px;
+  float: left;
+}
+.first1 h1 {
+  padding-top: 50px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  color: white;
+}
+.first1 p {
+  font-size: 20px;
+  color: white;
+  line-height: 33px;
+}
+.second2 h1 {
+  font-size: 40px;
+  color: white;
+  padding-top: 50px;
+}
+.second2 {
+  margin-right: 50px;
+  margin-left: 900px;
+}
+.second2 .finallinks {
+  color: white;
+  margin-bottom: 25px;
+  padding-top: 25px;
+}
+.second2 .finallinks a {
+  color: white;
+  font-size: 20px;
+}
+.second2 span {
+  height: 100px;
+  background-color: rgb(190, 187, 187);
+}
